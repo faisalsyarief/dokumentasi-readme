@@ -14,21 +14,31 @@ Setiap fitur dapat dibuat dalam satu repository terpisah agar pengelolaan lebih 
 
 ## Git Clone
 Lakukan *clone* repository dari remote ke lokal menggunakan perintah: 
-```git clone <url-repository>```
+```
+git clone <url-repository>
+```
 
 
 ## Simpan Credential Git
 Agar Git menyimpan kredensial (username & password/token) secara permanen, jalankan perintah: 
-```git config --global credential.helper store```
+```
+git config --global credential.helper store
+```
 
 
 ## Membuat dan Berpindah ke Branch
 - Gunakan perintah berikut untuk membuat branch:
-- ```git branch -b nama_branch```
+```
+git branch -b nama_branch
+```
 - Gunakan perintah berikut untuk berpindah branch:
-- ```git checkout -b development```
+```
+git checkout -b development
+```
 - Untuk melihat riwayat commit secara ringkas:
-- ```git log --oneline```
+```
+git log --oneline
+```
 
 
 ## Membuat Tag Versi Rilis
